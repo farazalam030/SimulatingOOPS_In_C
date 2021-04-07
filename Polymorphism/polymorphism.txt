@@ -1,0 +1,6 @@
+Polymorphism (Virtual Functions)
+
+Polymorphism is the ability to substitute objects of matching interfaces for one another at run-time. C++
+implements polymorphism with virtual functions. In C, you can also implement virtual functions in a
+number of ways [1,4,10]. The implementation presented here (and used in the QP/C and QP-nano real-time
+frameworks) has very similar performance and memory overhead as virtual functions in C++
