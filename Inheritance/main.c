@@ -16,7 +16,7 @@ int main() {
   // reusing superclass Move function
 
   Shape_Move((Shape*)&r1, 0, -1);
-  Shape_Move((Shape*)&r2, 2, -4);
+  Shape_Move(&r2.super, 2, -4);
 
   printf("Rect r1 ( x=%d; y=%d; len=%d; breadth=%d )\n", r1.super.x, r1.super.y,
          r1.length, r1.breadth);
